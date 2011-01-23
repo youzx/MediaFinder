@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_btn_text_sz">设置</string>
+    <string name="main_btn_text_bdyp">本地音频</string>
+    <string name="main_btn_text_bdsp">本地视频</string>
+    <string name="main_text_bdyp">共40个</string>
+    <string name="main_text_bdsp">共18个</string>
+    <string name="hello">Hello World, MediaFinder!</string>
+    <string name="app_name">MediaFinder</string>
+</resources>

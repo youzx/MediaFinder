@@ -1,0 +1,25 @@
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<RelativeLayout android:id="@+id/RelativeLayout01"
+		android:layout_centerInParent="true" android:background="@color/bg" android:layout_height="fill_parent" android:layout_width="fill_parent"><RelativeLayout android:id="@+id/RelativeLayout02" android:layout_height="wrap_content" android:background="@drawable/background" android:layout_centerInParent="true" android:layout_width="wrap_content"><TableLayout android:id="@+id/TableLayout01" android:layout_centerInParent="true" android:layout_height="wrap_content" android:layout_width="wrap_content"><TableRow android:id="@+id/TableRow01" android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+
+<RelativeLayout android:id="@+id/RelativeLayout04" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="130sp" android:background="@drawable/btn_focus" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_btn_text_bdsp" android:textSize="24sp" android:textStyle="bold" android:id="@+id/TextView01" android:layout_centerHorizontal="true" android:layout_below="@+id/ImageView01"></TextView><ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/btn_bdsp" android:layout_centerHorizontal="true"></ImageView>
+</RelativeLayout>
+<RelativeLayout android:id="@+id/RelativeLayout05" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="130sp" android:background="@drawable/btn_focus" android:clickable="true" android:focusable="true" android:focusableInTouchMode="true"><TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_btn_text_bdyp" android:textSize="24sp" android:textStyle="bold" android:layout_below="@+id/ImageView02" android:layout_centerHorizontal="true"></TextView><ImageView android:id="@+id/ImageView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/btn_bdyp" android:layout_centerHorizontal="true"></ImageView>
+</RelativeLayout>
+<RelativeLayout android:id="@+id/RelativeLayout06" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="130sp" android:clickable="true" android:background="@drawable/btn_focus" android:focusable="true" android:focusableInTouchMode="true"><TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_btn_text_sz" android:textSize="24sp" android:textStyle="bold" android:layout_below="@+id/ImageView03" android:layout_centerHorizontal="true"></TextView><ImageView android:id="@+id/ImageView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/btn_setup" android:layout_centerHorizontal="true"></ImageView>
+</RelativeLayout>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_text_bdsp" android:textSize="18sp" android:layout_gravity="center" android:textColor="@color/text_note"></TextView>
+<TextView android:id="@+id/TextView05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_text_bdyp" android:textSize="18sp" android:layout_gravity="center" android:textColor="@color/text_note"></TextView>
+</TableRow>
+</TableLayout>
+</RelativeLayout>
+<RelativeLayout android:id="@+id/RelativeLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/RelativeLayout02" android:background="@drawable/mediabrowser_log" android:layout_alignRight="@id/RelativeLayout02"></RelativeLayout>
+</RelativeLayout>
+
+</merge>

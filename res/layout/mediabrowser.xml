@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent">
+<RelativeLayout android:id="@+id/RelativeLayout01" android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+<RelativeLayout android:id="@+id/RelativeLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<ImageView android:id="@+id/ImageView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/log_media_video" android:layout_alignParentRight="true"></ImageView>
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@+id/RelativeLayout02" android:layout_alignLeft="@id/TableLayout01"><TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content"><ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/btn_sd_disable"></ImageView>
+<ImageView android:id="@+id/ImageView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/btn_upan_disable"></ImageView>
+<ImageView android:id="@+id/ImageView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/btn_disk_disable"></ImageView>
+<ImageView android:id="@+id/ImageView05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/btn_memory_disable"></ImageView>
+<ImageView android:id="@+id/ImageView06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/btn_pc_disable"></ImageView>
+</TableRow>
+</TableLayout>
+</RelativeLayout>
+<RelativeLayout android:id="@+id/RelativeLayout03" android:layout_below="@id/RelativeLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"><RelativeLayout android:id="@+id/RelativeLayout04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/mediabrowser_left_bg"></RelativeLayout>
+<RelativeLayout android:id="@+id/RelativeLayout05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/RelativeLayout04"><ListView android:id="@+id/ListView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></ListView>
+</RelativeLayout>
+</RelativeLayout>
+</RelativeLayout>
+</merge>
